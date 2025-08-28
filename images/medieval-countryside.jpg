@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- 天空背景 -->
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9d9a0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6b980;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)" />
+  
+  <!-- 远山 -->
+  <path d="M0,500 Q300,400 600,450 T1200,400 V800 H0 Z" fill="#7a8b69" opacity="0.7" />
+  <path d="M0,550 Q400,450 800,500 T1200,450 V800 H0 Z" fill="#5d6e4e" opacity="0.8" />
+  
+  <!-- 草地 -->
+  <path d="M0,600 Q300,550 600,580 T1200,550 V800 H0 Z" fill="#7a9a5f" />
+  
+  <!-- 村庄 -->
+  <!-- 教堂 -->
+  <rect x="700" y="350" width="60" height="150" fill="#a67c52" />
+  <polygon points="700,350 760,350 730,280" fill="#8b4513" />
+  <rect x="720" y="250" width="20" height="30" fill="#8b4513" />
+  
+  <!-- 房屋群 -->
+  <!-- 房屋1 -->
+  <rect x="300" y="500" width="80" height="60" fill="#a67c52" />
+  <polygon points="300,500 380,500 340,450" fill="#8b4513" />
+  <rect x="320" y="520" width="20" height="30" fill="#5d4037" />
+  
+  <!-- 房屋2 -->
+  <rect x="400" y="520" width="70" height="50" fill="#a67c52" />
+  <polygon points="400,520 470,520 435,470" fill="#8b4513" />
+  
+  <!-- 房屋3 -->
+  <rect x="500" y="510" width="90" height="70" fill="#a67c52" />
+  <polygon points="500,510 590,510 545,450" fill="#8b4513" />
+  <rect x="530" y="540" width="25" height="40" fill="#5d4037" />
+  
+  <!-- 房屋4 -->
+  <rect x="620" y="490" width="60" height="60" fill="#a67c52" />
+  <polygon points="620,490 680,490 650,440" fill="#8b4513" />
+  
+  <!-- 房屋5 -->
+  <rect x="800" y="520" width="100" height="60" fill="#a67c52" />
+  <polygon points="800,520 900,520 850,460" fill="#8b4513" />
+  <rect x="830" y="540" width="20" height="30" fill="#5d4037" />
+  
+  <!-- 树木 -->
+  <!-- 树1 -->
+  <circle cx="200" cy="550" r="30" fill="#496b2e" />
+  <rect x="195" y="550" width="10" height="30" fill="#5d4037" />
+  
+  <!-- 树2 -->
+  <circle cx="900" cy="580" r="25" fill="#496b2e" />
+  <rect x="895" y="580" width="10" height="25" fill="#5d4037" />
+  
+  <!-- 树3 -->
+  <circle cx="1000" cy="560" r="35" fill="#496b2e" />
+  <rect x="995" y="560" width="10" height="35" fill="#5d4037" />
+  
+  <!-- 树4 -->
+  <circle cx="100" cy="580" r="20" fill="#496b2e" />
+  <rect x="95" y="580" width="10" height="20" fill="#5d4037" />
+  
+  <!-- 小路 -->
+  <path d="M400,800 C500,700 700,650 800,800" stroke="#d2b48c" stroke-width="15" fill="none" />
+  
+  <!-- 太阳 -->
+  <circle cx="200" cy="150" r="60" fill="#f9d56e" />
+  <circle cx="200" cy="150" r="50" fill="#fae588" />
+  
+  <!-- 鸟 -->
+  <path d="M300,200 C310,190 320,200 330,190" stroke="#333" stroke-width="2" fill="none" />
+  <path d="M500,180 C510,170 520,180 530,170" stroke="#333" stroke-width="2" fill="none" />
+  <path d="M400,150 C410,140 420,150 430,140" stroke="#333" stroke-width="2" fill="none" />
+</svg>
